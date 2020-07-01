@@ -1,0 +1,20 @@
+.Toolbar {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    top: 0;
+    left: 0;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 70;  
+}
+
+.Toolbar nav {
+    height: 100%; 
+    margin-right: 10px;
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+} 
