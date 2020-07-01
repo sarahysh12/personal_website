@@ -1,6 +1,15 @@
+
+/* General */
+.Landing {
+    text-align: center;
+}
+
+
+/* Header */
+
 .Header {
     height: 400px;
-    background-color: #3da4ab;
+    background-color: #086972;
 }
 
 .Header img {
@@ -15,6 +24,8 @@
     font-size: 20px;
 }
 
+/* About me */
+
 .Nav {
 
 }
@@ -27,22 +38,38 @@
     height:20%;
 }
 
-.AboutMe a {
-    color: #fe8a71;
+.AboutMe button {
+    background-color: #086972;
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 10%;
+    margin: 0px 20px;
+    outline: none;
 }
+.AboutMe button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
 
 .AboutMe p {
     padding: 30px 0;
 }
 
+/* Spaces */
+
 .OrangeSpace {
-    background-color: #fe8a71;
+    background-color: #f37121;
     height: 250px;
 }
 
+
+/* Skills */
+
 .Skills {
     height: 400px;
-    padding: 15px 150px;
+    padding: 15px 0px;
     color: #35495e;
 }
 .Skills h3 {

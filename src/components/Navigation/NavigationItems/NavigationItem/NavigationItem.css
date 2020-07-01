@@ -14,7 +14,7 @@
 .NavigationItem a:hover,
 .NavigationItem a:active {
     color: #fe8a71;
-    font-size: 19px;
+    /* font-size: 19px; */
 }
 
 @media (min-width: 500px) {

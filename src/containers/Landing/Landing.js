@@ -22,7 +22,7 @@ class Landing extends Component {
 
 
         return (
-            <div>
+            <div className="Landing">
                 <div className="Header">
                     <img src={myImg}></img>
                     <div>
@@ -38,7 +38,7 @@ class Landing extends Component {
                 </div>
                 <div className="AboutMe">
                     <p>Hi, my name is Sara. I am a Software Engineer based in San Francisco. I studied in bachelor of software engineering and master in computere science. I have two years of experience in industry as a data engineer and software engineer. I am expert developing front ends using Angular and React frameworks and I recently started learning SwiftUI and React Native.
-                    <a href="#"> Read more</a></p>
+                    <button href="#">Read more</button></p>
                 </div>
                 <div className="OrangeSpace">
                 </div>

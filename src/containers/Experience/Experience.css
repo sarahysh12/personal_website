@@ -1,0 +1,21 @@
+.Experience {
+    margin: 20px 100px;
+}
+.Experience h1 {
+    margin-top: 50px;
+    font-size: 30;
+    color: #f37121;
+    text-transform: uppercase;
+}
+
+.ExperienceItem {
+    margin: 50px 0;
+}
+
+
+
+.SmallGreenSpace {
+    background-color: #086972;
+    height: 20px;
+    margin-top: 10px;
+}
