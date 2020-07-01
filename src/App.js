@@ -1,18 +1,40 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import Landing from './containers/Landing/Landing';
 import { BrowserRouter} from 'react-router-dom';
-import Experience from './containers/Experience/Experience';
+import { Route, Switch } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
+import Landing from './containers/Landing/Landing';
+import Experience from './containers/Experience/Experience';
+import Skills from './containers/Skills/Skills';
+import Projects from './containers/Projects/Projects';
+import Arts from './containers/Arts/Arts';
+import AboutMe from './containers/AboutMe/AboutMe';
+
+
+
+class App extends Component {
+  
+
+  render() {
+    let routes = (
+      <Switch>
+        <Route path="/experience" component={Experience} />
+        <Route path="/skills" component={Skills} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/arts" component={Arts} />
+        <Route path="/aboutme" component={AboutMe} />
+        <Route path="/" exact component={Landing}/>
+      </Switch>
+    );
+
+    return (
       <BrowserRouter>
-        {/* <Landing/> */}
-        <Experience/>
+        <div className="App">
+            {routes}
+        </div>
       </BrowserRouter>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;

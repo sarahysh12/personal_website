@@ -8,11 +8,12 @@ class NavigationItems extends Component {
         return(
             <article>
                 <ul className="NavigationItems">
-                    <NavigationItem link="/" exact>Experience</NavigationItem>
-                    <NavigationItem link="/" exact>Skills</NavigationItem> 
-                    <NavigationItem link="/" exact>Projects</NavigationItem> 
-                    <NavigationItem link="/" exact>Arts</NavigationItem> 
-                    <NavigationItem link="/" exact>About Me</NavigationItem> 
+                    <NavigationItem link="/" exact>Home</NavigationItem>
+                    <NavigationItem link="/experience" exact>Experience</NavigationItem>
+                    <NavigationItem link="/skills" exact>Skills</NavigationItem> 
+                    <NavigationItem link="/projects" exact>Projects</NavigationItem> 
+                    <NavigationItem link="/arts" exact>Arts</NavigationItem> 
+                    <NavigationItem link="/aboutme" exact>About Me</NavigationItem> 
                 </ul>
             </article>
         );

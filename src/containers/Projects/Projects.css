@@ -1,0 +1,16 @@
+.Projects {
+    margin: 20px 100px;
+}
+.Projects h1 {
+    margin-top: 50px;
+    font-size: 30;
+    color: #086972; 
+    text-transform: uppercase;
+}
+
+
+.SmallOrangeSpace {
+    background-color: #f37121;
+    height: 20px;
+    margin-top: 10px;
+}
