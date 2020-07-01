@@ -1,0 +1,54 @@
+.Header {
+    height: 400px;
+    background-color: #3da4ab;
+}
+
+.Header img {
+    margin-top: 50px;
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.Icons{
+    margin: 30px 10px;
+    font-size: 20px;
+}
+
+.AboutMe {
+    padding: 50px 250px;
+    height:150px;
+    color: #35495e;
+    font-size: 20px;
+    line-height: 2em;
+}
+.AboutMe a {
+    color: #fe8a71;
+}
+
+.OrangeSpace {
+    background-color: #fe8a71;
+    height: 300px;
+}
+
+.Skills {
+    height: 400px;
+    padding: 30px 150px;
+    color: #35495e;
+}
+.Skills h3 {
+    font-size: 30px;
+}
+.ProgressBar {
+    width: 300px;
+    margin: 10px 50px;
+}
+
+.SkillList {
+  display: flex;
+  justify-content: left;
+  flex-flow: row wrap; 
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
