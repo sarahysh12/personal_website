@@ -9,10 +9,9 @@ import ExperienceTimeline from '../../components/ExperienceTimeline/ExperienceTi
 class Experience extends Component {
 
     render() {
-
         return(
             <div>
-                <div className="SmallGreenSpace"></div>
+                <div className="SmallOrangeSpace"></div>
                 <div className="Experience">
                     <Toolbar/>
                     <h1>Experiences</h1>

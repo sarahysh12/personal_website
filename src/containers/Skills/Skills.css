@@ -1,0 +1,30 @@
+.Skills {
+    /* margin: 20px 100px; */
+}
+.Skills h1 {
+    margin: 20px 0px 10px 100px;
+    font-size: 30;
+    color: #086972; 
+    text-transform: uppercase;
+}
+
+.Skills h3 {
+    font-size: 26px;
+}
+
+.SmallOrangeSpace {
+    background-color: #f37121;
+    height: 20px;
+    margin-top: 10px;
+}
+
+
+.SkillList {
+    display: flex;
+    justify-content: left;
+    flex-flow: row wrap; 
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  
+  

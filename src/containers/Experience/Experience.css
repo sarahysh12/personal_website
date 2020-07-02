@@ -4,7 +4,7 @@
 .Experience h1 {
     margin-top: 50px;
     font-size: 30;
-    color: #f37121;
+    color: #086972;
     text-transform: uppercase;
 }
 
@@ -14,8 +14,8 @@
 
 
 
-.SmallGreenSpace {
-    background-color: #086972;
-    height: 20px;
+.SmallOrangeSpace {
+    background-color: #f37121;
+    height: 200px;
     margin-top: 10px;
 }
