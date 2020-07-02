@@ -4,6 +4,7 @@
     width: 100%;
     outline: none;
     color: #35495e;
+    height: 50px;
 }
 
 .NavigationItem a {
@@ -29,14 +30,4 @@
         color: #35495e;
         font-size: 17px;
     }
-}
-
-.WhiteNavigation a.active {
-    background-color: white;
-    color: #35495e;
-}
-
-.WhiteNavigation a:hover,
-.WhiteNavigation a:focus {
-    color: #35495e;
 }

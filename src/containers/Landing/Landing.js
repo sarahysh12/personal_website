@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './Landing.css';
 import myImg from '../../assets/images/sara.jpg';
-import myProgramming from '../../assets/images/Me.png';
 
 import { skillList } from '../../shared/skills';
 import SkillProgress from '../../components/SkillProgress/SkillProgress';
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
+import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
@@ -17,7 +17,18 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Typical from 'react-typical';
 
 class Landing extends Component {
+    state = {
+        showSideDrawer : false
+    }
+    sideDrawerClosedHandler = () => {
+        this.setState({showSideDrawer: false})
+    }
 
+    sideDrawerToggleHandler = () => {
+        this.setState( (prevState) => {
+            return {showSideDrawer: !prevState.showSideDrawer}
+        });
+    }
 
     render () {
         let skills =  Object.entries(skillList).map(([key, value]) => 
@@ -61,6 +72,9 @@ class Landing extends Component {
                 </div>
                 <div className="Nav">
                     <Toolbar/>
+                    <SideDrawer 
+                    open={this.state.showSideDrawer}
+                    closed={this.sideDrawerClosedHandler}/>
                 </div>
                 <div className="AboutMe">
                     <p>Hi, my name is Sara. I am a Software Engineer based in San Francisco. I studied in bachelor of software engineering and master in computere science. I have two years of experience in industry as a data engineer and software engineer. I am expert developing front ends using Angular and React frameworks and I recently started learning SwiftUI and React Native.
