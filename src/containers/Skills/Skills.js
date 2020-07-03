@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Skills.css';
-import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
+import Menu from '../../components/Menu/Menu';
 import  { skillList } from '../../shared/skills';
 import SkillProgress from '../../components/SkillProgress/SkillProgress';
 
@@ -15,7 +15,7 @@ class Skills extends Component {
         return(
             <div>
                 <div className="SmallOrangeSpace"></div>
-                <Toolbar/>
+                <Menu/>
                 <div className="Skills">
                     <h1>Skills</h1>
                     <div className="SkillList">

@@ -11,6 +11,8 @@
     height: 400px;
     background-color: #086972;
     display: flex;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .Header img {
@@ -45,8 +47,10 @@
 
 /* About me */
 
-.Nav {
-
+.SmallGreenSpace {
+    background-color: #086972;
+    height: 20px;
+    margin-top: 10px;
 }
 
 .AboutMe {

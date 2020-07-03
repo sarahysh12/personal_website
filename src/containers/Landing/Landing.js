@@ -4,8 +4,8 @@ import myImg from '../../assets/images/sara.jpg';
 
 import { skillList } from '../../shared/skills';
 import SkillProgress from '../../components/SkillProgress/SkillProgress';
-import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
-import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
+import Menu from '../../components/Menu/Menu';
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
@@ -38,6 +38,8 @@ class Landing extends Component {
 
         return (
             <div className="Landing">
+                <div className="SmallGreenSpace"></div>
+                <Menu/>
                 <div className="Header">
                     <div class="Intro">
                         <h1>Hello I'm Sara.</h1>
@@ -69,12 +71,6 @@ class Landing extends Component {
                             <a href="https://twitter.com/ysh_sarah"><FontAwesomeIcon className="Icons" icon={faTwitter} style={{color:'white'}}/></a>
                         </div>
                     </div>
-                </div>
-                <div className="Nav">
-                    <Toolbar/>
-                    <SideDrawer 
-                    open={this.state.showSideDrawer}
-                    closed={this.sideDrawerClosedHandler}/>
                 </div>
                 <div className="AboutMe">
                     <p>Hi, my name is Sara. I am a Software Engineer based in San Francisco. I studied in bachelor of software engineering and master in computere science. I have two years of experience in industry as a data engineer and software engineer. I am expert developing front ends using Angular and React frameworks and I recently started learning SwiftUI and React Native.

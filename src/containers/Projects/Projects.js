@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Projects.css';
-import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
-import { projects } from '../../shared/project'
+import { projects } from '../../shared/project';
+import Menu from '../../components/Menu/Menu';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -24,7 +24,7 @@ class Projects extends Component {
         return(
             <div>
                 <div className="SmallGreenSpace"></div>
-                <Toolbar/>
+                <Menu/>
                 <div className="Projects">
                     <h1>Projects</h1>
                     {projs}

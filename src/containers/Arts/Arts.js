@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Arts.css';
-import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
+import Menu from '../../components/Menu/Menu';
+
 
 
 class Arts extends Component {
@@ -10,9 +11,7 @@ class Arts extends Component {
         return(
             <div>
                 <div className="SmallOrangeSpace"></div>
-                <div className="Arts">
-                    <Toolbar/>
-                </div>
+                <Menu/>
             </div>
         );
     }

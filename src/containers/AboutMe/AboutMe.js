@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
 import './AboutMe.css';
-import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
+import Menu from '../../components/Menu/Menu';
 
 
 class AboutMe extends Component {
 
     render() {
-
         return(
             <div>
                 <div className="SmallOrangeSpace"></div>
-                <div className="AboutMe">
-                    <Toolbar/>
-                </div>
+                <Menu/>
             </div>
         );
     }
