@@ -1,16 +1,16 @@
 export const skillList = {
-       'Python': '90',
-       'C#': '70',
-       'Angular': '70',
-       'React': '90',
-       'SQL': '100',
-       'MongoDB': '90',
-       'SwiftUI': '20',
-       'Micro-services': '50',
-       'RabbitMQ': '50',
-       'React Native': '30',
-       'HTML5': '100',
-       'CSS3': '100',
-       'Bootstrap': '90'
+       'python': '90',
+       'c-sharp': '70',
+       'angular': '70',
+       'react': '90',
+       'sql': '100',
+       'mongo-db': '90',
+       'swift': '20',
+       'micro-services': '50',
+       'rabbit-mq': '50',
+       'react-native': '30',
+       'html5': '100',
+       'css3': '100',
+       'bootstrap': '90'
 
     }

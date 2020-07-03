@@ -47,13 +47,8 @@
 
 /* About me */
 
-.SmallGreenSpace {
-    background-color: #086972;
-    height: 20px;
-    margin-top: 10px;
-}
 
-.AboutMe {
+.About {
     padding: 0px 10%;
     color: #35495e;
     font-size: 20px;
@@ -61,7 +56,7 @@
     height:20%;
 }
 
-.AboutMe button {
+.About button {
     background-color: #086972;
     color: white;
     height: 30px;
@@ -70,20 +65,14 @@
     margin: 0px 20px;
     outline: none;
 }
-.AboutMe button:hover {
+.About button:hover {
     opacity: 0.9;
     cursor: pointer;
 }
 
 
-.AboutMe p {
+.About p {
     padding: 30px 0;
-}
-
-/* Spaces */
-.OrangeSpace {
-    background-color: #f37121;
-    height: 250px;
 }
 
 
@@ -96,7 +85,7 @@
     padding: 2% 5%;
     font-size: 30px;
 }
-.ProgressBar {
+.ProgressBars {
     width: 300px;
     margin: 10px 5%;
 }

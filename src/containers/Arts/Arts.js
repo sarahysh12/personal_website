@@ -10,8 +10,11 @@ class Arts extends Component {
 
         return(
             <div>
-                <div className="SmallOrangeSpace"></div>
+                <div className="SmallGreenSpace"></div>
                 <Menu/>
+                <div className="Arts">
+                    <h1>Arts</h1>
+                </div>
             </div>
         );
     }

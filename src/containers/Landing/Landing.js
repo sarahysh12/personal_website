@@ -32,7 +32,7 @@ class Landing extends Component {
 
     render () {
         let skills =  Object.entries(skillList).map(([key, value]) => 
-                <div className="ProgressBar"><SkillProgress type='line' skill={key} percentage={value}/></div>
+                <div className="ProgressBars"><SkillProgress type='line' skill={key} percentage={value}/></div>
         );
 
 
@@ -72,7 +72,7 @@ class Landing extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="AboutMe">
+                <div className="About">
                     <p>Hi, my name is Sara. I am a Software Engineer based in San Francisco. I studied in bachelor of software engineering and master in computere science. I have two years of experience in industry as a data engineer and software engineer. I am expert developing front ends using Angular and React frameworks and I recently started learning SwiftUI and React Native.
                     <button href="#">Read more</button></p>
                 </div>

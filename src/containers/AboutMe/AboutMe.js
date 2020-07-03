@@ -10,6 +10,9 @@ class AboutMe extends Component {
             <div>
                 <div className="SmallOrangeSpace"></div>
                 <Menu/>
+                <div className="AboutMe">
+                    <h1>About Me</h1>
+                </div>
             </div>
         );
     }

@@ -1,17 +1,13 @@
 .Projects {
-    margin: 20px 100px;
+    margin: 4% 8%;
 }
 .Projects h1 {
-    margin-top: 50px;
-    font-size: 30;
     color: #f37121; 
-    text-transform: uppercase;
 }
 
 .Project h3 {
     font-size: 26;
 }
-
 
 .SmallGreenSpace {
     background-color: #086972;

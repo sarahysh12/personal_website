@@ -2,18 +2,9 @@
     margin: 4% 8%;
 }
 .Experience h1 {
-    margin-top: 50px;
-    font-size: 30;
     color: #086972;
-    text-transform: uppercase;
 }
 
 .ExperienceItem {
     margin: 50px 0;
-}
-
-.SmallOrangeSpace {
-    background-color: #f37121;
-    height: 200px;
-    margin-top: 10px;
 }
