@@ -2,24 +2,22 @@ import React, { Component } from 'react';
 import './Projects.css';
 import { projects } from '../../shared/project';
 import Menu from '../../components/Menu/Menu';
-
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import Project from './Project/Project';
 
 //TODO Move toolbar to a separate component
 
 class Projects extends Component {
 
     render() {
-
         let projs =  projects.map(proj => (
-            <div>
-                <h3>{proj.title}</h3>
-                <p>{proj.descrption}</p>
-                <a href={proj.githuburl}><FontAwesomeIcon className="Icons" icon={faGithub} style={{color:'#35495e'}}/></a>        
-            </div>
-        ));
+            // <div className="Proj">
+            //     <Project title={proj.title} description={proj.descrption} git={proj.githuburl} img={proj.image} start={proj.start} end={proj.end}/>
+            // </div>
+            <li>
+                <Project title={proj.title} description={proj.descrption} git={proj.githuburl} img={proj.image} start={proj.start} end={proj.end}/>
+            </li>
+
+             ));
 
         return(
             <div>
@@ -27,7 +25,9 @@ class Projects extends Component {
                 <Menu/>
                 <div className="Projects">
                     <h1>Projects</h1>
-                    {projs}
+                    <ul>
+                        {projs}
+                    </ul>
                 </div>
             </div>
         );

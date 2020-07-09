@@ -24,16 +24,16 @@ class Skills extends Component {
         let skills =  Object.entries(icons).map(([key, value]) => {
             const icon = value !== '' ? <FontAwesomeIcon className="Icons" icon={[value, key]}  style={{color:'#086972'}}/> : null
             return (
-            <div className="ProgressBar">
-                <p className="IconName">
-                    {icon}
-                    <span style={{flex: 1, paddingTop: '9%', paddingLeft: '1%'}}>{key}</span>
-                </p>
-                <div className="PercentageBar">
-                    <span>{skillList[key]}%</span>
-                    <Line percent={skillList[key]} strokeWidth="3" strokeColor="#086972" />
-                </div>
-            </div> 
+                <div className="ProgressBar">
+                    <p className="IconName">
+                        {icon}
+                        <span style={{flex: 1, paddingTop: '9%', paddingLeft: '1%'}}>{key}</span>
+                    </p>
+                    <div className="PercentageBar">
+                        <span>{skillList[key]}%</span>
+                        <Line percent={skillList[key]} strokeWidth="3" strokeColor="#086972" />
+                    </div>
+                </div> 
             )
         });
 
