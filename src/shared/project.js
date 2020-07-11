@@ -1,5 +1,5 @@
-import aestheteWeb from '../assets/images/SY.png';
-import aestheteMob from '../assets/images/SY.png';
+import aestheteWeb from '../assets/images/aestheteWeb.png';
+import aestheteMob from '../assets/images/aestheteMobile.png';
 import mlProject from '../assets/images/SY.png';
 
 export const projects = [

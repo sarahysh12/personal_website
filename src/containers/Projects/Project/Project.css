@@ -2,7 +2,7 @@
     font-size: 18px;
     color: #35495e;
     display: flex;
-    margin: 50px 50px;
+    margin: 50px 5px;
     line-height: 2em;
     height: 300px;
 
@@ -28,8 +28,10 @@
 }
 
 .Project img {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
 }
 
 

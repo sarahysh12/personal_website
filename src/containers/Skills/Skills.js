@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Skills.css';
+import './Skills.scss';
 import Menu from '../../components/Menu/Menu';
 import  { skillList } from '../../shared/skills';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -24,16 +24,18 @@ class Skills extends Component {
         let skills =  Object.entries(icons).map(([key, value]) => {
             const icon = value !== '' ? <FontAwesomeIcon className="Icons" icon={[value, key]}  style={{color:'#086972'}}/> : null
             return (
-                <div className="ProgressBar">
-                    <p className="IconName">
-                        {icon}
-                        <span style={{flex: 1, paddingTop: '9%', paddingLeft: '1%'}}>{key}</span>
-                    </p>
-                    <div className="PercentageBar">
-                        <span>{skillList[key]}%</span>
-                        <Line percent={skillList[key]} strokeWidth="3" strokeColor="#086972" />
-                    </div>
-                </div> 
+                <li>
+                    <div className="ProgressBar">
+                        <p className="IconName">
+                            {icon}
+                            <span style={{flex: 1, paddingTop: '9%', paddingLeft: '1%'}}>{key}</span>
+                        </p>
+                        <div className="PercentageBar">
+                            <span>{skillList[key]}%</span>
+                            <Line percent={skillList[key]} strokeWidth="3" strokeColor="#086972" />
+                        </div>
+                    </div> 
+                </li>
             )
         });
 
@@ -46,7 +48,9 @@ class Skills extends Component {
                 <div className="Skills">
                     <h1>Skills</h1>
                     <div className="SkillList">
+                        <ul>
                         {skills}
+                        </ul>
                     </div>
                 </div>
             </div>
