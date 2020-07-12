@@ -10,9 +10,6 @@ class Projects extends Component {
 
     render() {
         let projs =  projects.map(proj => (
-            // <div className="Proj">
-            //     <Project title={proj.title} description={proj.descrption} git={proj.githuburl} img={proj.image} start={proj.start} end={proj.end}/>
-            // </div>
             <li>
                 <Project title={proj.title} description={proj.descrption} git={proj.githuburl} img={proj.image} start={proj.start} end={proj.end}/>
             </li>
