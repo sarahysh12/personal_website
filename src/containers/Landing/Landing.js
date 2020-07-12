@@ -5,14 +5,7 @@ import myImg from '../../assets/images/sara.jpg';
 import { skillList } from '../../shared/skills';
 import SkillProgress from '../../components/SkillProgress/SkillProgress';
 import Menu from '../../components/Menu/Menu';
-
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faPinterest } from '@fortawesome/free-brands-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Contacts from '../../components/Contacts/Contacts';
 
 import Typical from 'react-typical';
 
@@ -63,13 +56,7 @@ class Landing extends Component {
                     </div>
                     <div className="Image">
                         <img src={myImg}></img>
-                        <div>
-                            <a href="mailto: saraysh22@gmail.com"><FontAwesomeIcon className="Icons" icon={faEnvelope} style={{color:'white'}}/></a>
-                            <a href="https://github.com/sarahysh12"><FontAwesomeIcon className="Icons" icon={faGithub} style={{color:'white'}}/></a>
-                            <a href="https://linkedin.com/in/sarayarshenas"><FontAwesomeIcon className="Icons" icon={faLinkedinIn} style={{color:'white'}}/></a>
-                            <a href="https://www.pinterest.com/saraysh22/myart"><FontAwesomeIcon className="Icons" icon={faPinterest} style={{color:'white'}}/></a>
-                            <a href="https://twitter.com/ysh_sarah"><FontAwesomeIcon className="Icons" icon={faTwitter} style={{color:'white'}}/></a>
-                        </div>
+                        <Contacts color='White'/>
                     </div>
                 </div>
                 <div className="About">
