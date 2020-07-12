@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/personal_website/static/css/main.8d45d33f.chunk.css",
+    "main.js": "/personal_website/static/js/main.e568d89f.chunk.js",
+    "main.js.map": "/personal_website/static/js/main.e568d89f.chunk.js.map",
+    "runtime-main.js": "/personal_website/static/js/runtime-main.c9e6f7bb.js",
+    "runtime-main.js.map": "/personal_website/static/js/runtime-main.c9e6f7bb.js.map",
+    "static/css/2.ac1ab58b.chunk.css": "/personal_website/static/css/2.ac1ab58b.chunk.css",
+    "static/js/2.9aa65af0.chunk.js": "/personal_website/static/js/2.9aa65af0.chunk.js",
+    "static/js/2.9aa65af0.chunk.js.map": "/personal_website/static/js/2.9aa65af0.chunk.js.map",
+    "index.html": "/personal_website/index.html",
+    "precache-manifest.afcb8a8ebd9f0d78f2e398e97ef1160e.js": "/personal_website/precache-manifest.afcb8a8ebd9f0d78f2e398e97ef1160e.js",
+    "service-worker.js": "/personal_website/service-worker.js",
+    "static/css/2.ac1ab58b.chunk.css.map": "/personal_website/static/css/2.ac1ab58b.chunk.css.map",
+    "static/css/main.8d45d33f.chunk.css.map": "/personal_website/static/css/main.8d45d33f.chunk.css.map",
+    "static/js/2.9aa65af0.chunk.js.LICENSE.txt": "/personal_website/static/js/2.9aa65af0.chunk.js.LICENSE.txt",
+    "static/media/SY.png": "/personal_website/static/media/SY.7c5c07e2.png",
+    "static/media/aestheteMobile.png": "/personal_website/static/media/aestheteMobile.a5982505.png",
+    "static/media/aestheteWeb.png": "/personal_website/static/media/aestheteWeb.d6870f73.png",
+    "static/media/boat.jpg": "/personal_website/static/media/boat.ca90569b.jpg",
+    "static/media/coffe.jpeg": "/personal_website/static/media/coffe.4b72bd33.jpeg",
+    "static/media/elham.jpeg": "/personal_website/static/media/elham.eadf90a5.jpeg",
+    "static/media/fish.jpeg": "/personal_website/static/media/fish.ae210617.jpeg",
+    "static/media/flamingo.jpeg": "/personal_website/static/media/flamingo.45db6279.jpeg",
+    "static/media/monster.jpg": "/personal_website/static/media/monster.d9ae85bd.jpg",
+    "static/media/sara.jpg": "/personal_website/static/media/sara.917f2c97.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9e6f7bb.js",
+    "static/css/2.ac1ab58b.chunk.css",
+    "static/js/2.9aa65af0.chunk.js",
+    "static/css/main.8d45d33f.chunk.css",
+    "static/js/main.e568d89f.chunk.js"
+  ]
+}
